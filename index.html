@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script src="skycons.js"></script>
+  </head>
+  <body>
+    <div class="weather-container-main">
+      <div class="weather-container">
+        <div class="weather-date">
+          <h3 class="time"></h3>
+          <div class="night-mode">
+            <i class="fas fa-sun fa-2x "></i>
+            <i class="fas fa-moon fa-2x hide-mode"></i>
+          </div>
+          <h3 class="date">05/05/2021</h3>
+        </div>
+        <div class="weather-search">
+          <i class="fas fa-exclamation-circle hide"></i>
+          <input type="text" class="search" placeholder="search" /><i
+            class="fas fa-search fa-2x"
+          ></i>
+        </div>
+        <div class="weather-display">
+          <div class="weather-location">
+            <h4 style="color: rgb(224, 217, 217)">CITY, COUNTRY</h4>
+          </div>
+          <div class="weather-icon">
+            <img src="icons/unknown.png" />
+          </div>
+          <div class="weather-temperature">
+            <h4>0</h4>
+          </div>
+          <div class="weather-description">
+            <p class="side-temp">Feels like 0</p>
+            <p class="description">HAZE</p>
+            <!-- <i>ICON</i> -->
+          </div>
+        </div>
+        <div class="weather-footer">
+          <div class="wind">
+            <p>wind</p>
+            <h3>0</h3>
+          </div>
+
+          <div class="humidity">
+            <p>humidity</p>
+            <h3>0</h3>
+          </div>
+
+          <div class="visibility">
+            <p>visibility</p>
+            <h3>0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
